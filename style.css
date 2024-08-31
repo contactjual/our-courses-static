@@ -1,0 +1,113 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 23px;
+    margin: 10px 0 20px 0;
+}
+p {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+}
+
+
+
+
+
+
+/* header */
+header {
+    text-align: center;
+}
+
+/* main>main-contant  */
+main .main-contant {
+    width: 73%;
+    margin: 20px 0;
+}
+main .main-contant .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+main .main-contant .cards .card img {
+    width: 100%;
+}
+main .main-contant .cards .card {
+    padding: 10px;
+    /* background-color: #4444441d; */
+    box-shadow: 5px 5px 10px #4444441d, -5px -5px 10px #4444441d;
+    border-radius: 10px;
+}
+main .main-contant .cards .card .price-credit {
+    display: flex;
+    justify-content: space-between;
+}
+main .main-contant .cards .card button {
+    padding: 10px 0;
+    background-color: rgba(0, 0, 255, 0.626);
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* main>side-contant */
+main {
+    display: flex;
+    gap: 20px;
+}
+main .side-container {
+    width: 27%;
+    margin: 20px 0;
+}
+main .side-container .payment {
+    padding: 10px;
+    /* background-color: #4444441d; */
+    box-shadow: 5px 5px 10px #4444441d, -5px -5px 10px #4444441d;
+    border-radius: 10px;
+}
+main .side-container .payment .heading_1 {
+    position: relative;
+    margin-bottom: 50px;
+    color: rgb(84, 84, 237);
+    font-size: 20px;
+}
+main .side-container .payment .heading_1::after, main .side-container .payment .para_1::after, main .side-container .payment .para_2::after {
+    content: '';
+    width: 90%;
+    height: 1px;
+    background-color: #44444426;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    left: 0;
+}
+main .side-container .payment .para_1 {
+    position: relative;
+    margin-bottom: 50px;
+}
+main .side-container .payment .para_2 {
+    position: relative;
+    margin-bottom: 40px;
+}
+main .side-container .payment .para_3 {
+    font-weight: 600;
+}
+main .side-container .payment p {
+    font-size: 18px;
+}
+
