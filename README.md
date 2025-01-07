@@ -1,4 +1,4 @@
 live view (static)............
 
-https://contactjual.github.io/seventh-our-courses-project/
+https://contactjual.github.io/our-courses-static/
 
